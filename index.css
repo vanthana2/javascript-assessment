@@ -1,0 +1,189 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    
+}
+.alert {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+    /* margin-top: 30px; */
+}
+label{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7b67c3;
+}
+.card{
+    width: 70%;
+    height: 80%;
+}
+.title{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+h2{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 35px;
+    color: white;
+    margin: 0;
+}
+.section{
+    width: 100%;
+    height: 85%;
+   
+}
+.content{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+    width: 47%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 95%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.product{
+    width: 80%;
+    height: 20%;
+}
+.amount{
+    width: 80%;
+    height: 20%;
+}
+.but{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #451ad3;
+    
+
+}
+input{
+    width: 100%;
+    /* height: 20%; */
+    border: none;
+    border-bottom: 1px solid;
+    height: 30%;
+}
+h3{
+    font-family: 'Varela Round', sans-serif;
+   font-size: 20px;
+}
+
+.entry{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.entry-sec{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.entry-name{
+    width: 90%;
+    max-height: 252px;
+    display: flex;
+   flex-direction: column;
+   overflow-y: scroll;
+
+}
+
+.fa-solid fa-trash{
+    width: 30%;
+}
+.listdata{
+    width: 90%;
+    height: 60px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px; 
+}
+
+.element{
+    width: 90;
+    height: 60px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+}
+.even{
+    background-color: rgb(74, 140, 74);
+    color: whitesmoke;
+}
+#arrow{
+    cursor: pointer;
+    color: #451ad3;
+    margin-left: 10px;
+}
+
+h5{
+    font-size: 17px;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+.total{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+hr{
+    height: 443px;
+}
+
+
+
+
+
